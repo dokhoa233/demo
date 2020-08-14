@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import VeOco from './components/Oco'
 
@@ -14,9 +13,7 @@ function App () {
     list.push(<VeOco mauOco={color}></VeOco>)
   }
   return(
-   <div className="banco">
-     {list}
-   </div>
+   <div className="banco">{list}</div>
  )
 }
 
