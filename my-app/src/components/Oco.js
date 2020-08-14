@@ -4,7 +4,7 @@ import '../App.css'
 function VeOco({mauOco}){
     const [colorState, setColorState] = useState(mauOco);
     const change =() =>{
-        setColorState('orange');
+        setColorState('pink');
     }
     return (
         <div className="oco" style={{backgroundColor:colorState}}>
